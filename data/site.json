@@ -1,0 +1,166 @@
+{
+  "name": "Achilleas Apostolou",
+  "email": "achillesapostolou@pm.me",
+  "avatar": "assets/img/avatar.webp",
+  "status": "online",
+  "statusLabel": "Online",
+  "headline": "3D TD & Media Technologist",
+  "intro": "Specialized in Real-Time CG, VR, Digital Lighting and Virtual Production. Originally from Athens, Greece 🇬🇷. Currently based in Copenhagen, Denmark 🇩🇰.",
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/achilles-apostolou/"
+    },
+    {
+      "label": "Instagram",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/achi.apo/"
+    },
+    {
+      "label": "Bluesky",
+      "icon": "bluesky",
+      "url": "https://bsky.app/profile/achilleasapostolou.gr"
+    },
+    {
+      "label": "Signal",
+      "icon": "signal",
+      "url": "https://signal.me/#eu/Q4gPE56mWw1g1-s6-SC08PR4-xcxVBOvRFWrLhbutrcJotxihhBCfKfIsBPxBaPs"
+    },
+    {
+      "label": "Last.fm",
+      "icon": "lastfm",
+      "url": "https://www.last.fm/user/Curabiedo"
+    }
+  ],
+  "about": {
+    "portrait": "assets/img/portrait.webp",
+    "title": "Hi, I'm Achilleas Apostolou and I'm a 3D Technical Designer.",
+    "text": "I was born and raised in Athens, Greece in 1997 and have since then lived in Heraklion, Geneva and Copenhagen. My passion for cinema, digital arts, and innovative technologies led me to earn a BSc in Computer Science from the University of Crete, specializing in Computer Graphics, and an MSc in Medialogy at Aalborg University Copenhagen, focusing on real-time graphics and virtual production. In my free time I enjoy sailing, bouldering, traveling and meeting new people.",
+    "facts": [
+      "6+ years of experience",
+      "Currently working at ORamaVR",
+      "Co-founder of Blurspot Films",
+      "FOSS, Data Privacy and Democratisation of Technology"
+    ],
+    "cv": {
+      "label": "Download CV",
+      "url": "assets/Apostolou_CV.pdf"
+    }
+  },
+  "experience": [
+    {
+      "org": "ORamaVR",
+      "when": "2019 — Present",
+      "roles": [
+        {
+          "title": "TD & Head of Design",
+          "when": "2023 — Present",
+          "note": "Switzerland 🇨🇭"
+        },
+        {
+          "title": "TD & 3D Designer",
+          "when": "2019 — 2023",
+          "note": "Greece 🇬🇷"
+        }
+      ]
+    },
+    {
+      "org": "AAU CREATE - SMILE Lab",
+      "when": "2023",
+      "roles": [
+        {
+          "title": "VP Researcher Intern"
+        }
+      ]
+    },
+    {
+      "org": "CNA Simulations VR",
+      "when": "2020",
+      "roles": [
+        {
+          "title": "3D Generalist (Part Time)"
+        }
+      ]
+    },
+    {
+      "org": "Freelance",
+      "when": "2016 — 2019",
+      "roles": [
+        {
+          "title": "Graphic Designer"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "org": "NKUA",
+      "when": "2025 — Present",
+      "roles": [
+        {
+          "title": "PhD Candidate",
+          "note": "Digital Arts & Cinema"
+        }
+      ]
+    },
+    {
+      "org": "Aalborg University Copenhagen",
+      "when": "2022 — 2024",
+      "roles": [
+        {
+          "title": "MSc Medialogy"
+        }
+      ]
+    },
+    {
+      "org": "University of Crete",
+      "when": "2015 — 2020",
+      "roles": [
+        {
+          "title": "BSc Computer Science"
+        }
+      ]
+    },
+    {
+      "org": "1ο Λύκειο Ζωγράφου",
+      "when": "2012 — 2015",
+      "roles": [
+        {
+          "title": "High School"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "when": "2025",
+      "title": "Basic Diver",
+      "where": "Amorgos Diving Center"
+    },
+    {
+      "when": "2022",
+      "title": "IELTS Band Score 8,5",
+      "where": "British Council"
+    },
+    {
+      "when": "2021",
+      "title": "Sailing Licence",
+      "where": "NASPOR Sailing Club"
+    },
+    {
+      "when": "2020",
+      "title": "Tandem Skydive",
+      "where": "Skydive Athens"
+    }
+  ],
+  "quote": {
+    "text": "The medium is the message.",
+    "by": "Marshall McLuhan"
+  },
+  "contact": {
+    "title": "Let's connect.",
+    "text": "Always looking to connect with cool people who share my interests. Feel free to contact me for any questions, feedback, or just to say hi."
+  },
+  "updated": "2026-10-06"
+}

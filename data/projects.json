@@ -1,0 +1,144 @@
+[
+  {
+    "id": "oramavr",
+    "title": "ORamaVR",
+    "label": "3D Work Portfolio",
+    "subtitle": "A short showcase of content created for ORamaVR during my time as a 3D supervisor.",
+    "year": "2019 - Present",
+    "timeframe": "5+ Years",
+    "tools": "Autodesk Maya, Marmoset Toolbag, Unity3D, Substance Painter & more.",
+    "category": "3D Work Portfolio",
+    "cover": "assets/img/oramavr/cover.webp",
+    "body": [
+      { "t": "p", "text": "OramaVR is a virtual reality company that offers immersive, interactive training simulations for medical and surgical education. It uses advanced VR technology to enhance learning outcomes, reduce training costs, and improve patient safety through realistic practice environments." },
+      { "t": "p", "text": "I joined ORamaVR in late 2019, initially working as a 3D Designer and VR Content Developer. Later, in my roles as 3D Technical Director and Head of Design, I have been responsible for supervising the 3D Content Pipeline as well as working closely with both the Development and Design Teams. I have now worked on over 30 VR simulations." },
+      { "t": "h", "text": "Responsibilities" },
+      { "t": "list", "items": [
+        "Design Team Lead & Art Direction.",
+        "3D TD & Lighting Design for VR Simulations.",
+        "3D Content Supervision & high performance asset optimization.",
+        "Digital Content Creation, supervision and pipelining.",
+        "Design Team Hiring, interviewing, exercises and documentation."
+      ] },
+      { "t": "h", "text": "ORamaVR Design team during 2023-2025 (showcased in portfolio)" },
+      { "t": "list", "items": [
+        "Achilleas Apostolou - 3D Supervisor",
+        "Antonis Tsioulis - 3D Generalist",
+        "Petros Haralampides - 3D Generalist",
+        "Nedjma Cadi - 3D Generalist"
+      ] }
+    ],
+    "gallery": [
+      "assets/img/oramavr/01.webp", "assets/img/oramavr/02.webp", "assets/img/oramavr/03.webp",
+      "assets/img/oramavr/04.webp", "assets/img/oramavr/05.webp", "assets/img/oramavr/06.webp",
+      "assets/img/oramavr/07.webp", "assets/img/oramavr/08.webp", "assets/img/oramavr/09.webp",
+      "assets/img/oramavr/10.webp", "assets/img/oramavr/11.webp", "assets/img/oramavr/12.webp",
+      "assets/img/oramavr/13.webp", "assets/img/oramavr/14.webp", "assets/img/oramavr/15.webp"
+    ]
+  },
+  {
+    "id": "vp",
+    "title": "Virtual Production",
+    "label": "Virtual Production",
+    "subtitle": "Virtual Production filming and digital filmmaking.",
+    "year": "2024",
+    "timeframe": "2 weeks",
+    "tools": "Unreal Engine, C++, BMPCC4K, DaVinci Resolve",
+    "category": "Virtual Production",
+    "cover": "assets/img/vp/cover.webp",
+    "body": [
+      { "t": "lead", "text": "\"The Egg\" Virtual Production short film created in 2024." },
+      { "t": "p", "text": "The shootings took place in August 2024 at Base.M studio in Aalborg University Copenhagen as part of the MSc thesis \"Luminating Scenes: A study of Light Automation in Virtual Production environments\"." },
+      { "t": "p", "text": "The short film is called “Το αυγό”; Greek for “The Egg”. The film is a remake of an iconic scene from the Greek short film series Ekeinos kai Ekeinos (Him and the Other), released in 1972, which marked a pivotal moment in Greek cinema, written by Kostas Mourselas." }
+    ],
+    "gallery": [
+      "assets/img/vp/01.webp", "assets/img/vp/02.webp", "assets/img/vp/03.webp", "assets/img/vp/04.webp",
+      "assets/img/vp/05.webp", "assets/img/vp/06.webp", "assets/img/vp/07.webp"
+    ]
+  },
+  {
+    "id": "research",
+    "title": "Digital Media Research",
+    "label": "Virtual Production Research",
+    "subtitle": "A study of Light Automation using Deep Learning in Virtual Production Environments",
+    "year": "2024",
+    "timeframe": "6 months",
+    "tools": "UE5, BMPCC4K, Autodesk Maya, Polyscan, C++, Overleaf, Python 3.1, VS Code, Elgato Cam-Link",
+    "category": "Virtual Production Research",
+    "cover": "assets/img/research/cover.webp",
+    "body": [
+      { "t": "lead", "text": "Automatic Digital lighting adaptation for Virtual Production." },
+      { "t": "p", "text": "This study introduces a deep learning–based tool that automates lighting in Virtual Production to reduce complexity and improve communication between Directors of Photography and the Virtual Art Department in Unreal Engine 5. Focus-group interviews with ten VP workshop participants revealed that lighting limitations on VP stages create a steep learning curve and hinder collaboration. To address this, three models were developed to predict light position, light color, or both from an input image, with emphasis on the color prediction model due to easier validation. The tool’s impact is evaluated through the production of a short film, demonstrating its potential to streamline VP lighting workflows." },
+      { "t": "p", "text": "Check out an overview of the project here: https://drive.proton.me/urls/6RXZ69ZEBW#w1yqe4hUOiD2" },
+      { "t": "h", "text": "Other Projects in Digital Media" },
+      { "t": "list", "items": [
+        "Volumetric Rendering Using CT Scanned Data: https://github.com/AchilleasApo/RTCG-project-aaucph2022",
+        "Machine learning for Media Experiences - 2023 Mini Project: https://github.com/AchilleasApo/ml-project-imdb-aau2023"
+      ] }
+    ],
+    "gallery": [
+      "assets/img/research/01.webp", "assets/img/research/02.webp", "assets/img/research/03.webp",
+      "assets/img/research/04.webp", "assets/img/research/05.webp", "assets/img/research/06.webp"
+    ]
+  },
+  {
+    "id": "blurspot",
+    "title": "Blurspot Films",
+    "label": "Filmmaking",
+    "subtitle": "A team of filmmaking and tech enthusiasts who use advanced digital media methods on their way to create some fun stuff.",
+    "year": "2021 - Present",
+    "timeframe": "4+ Years",
+    "tools": "BMPCC4K, DaVinci Resolve, Premiere Pro",
+    "category": "Filmmaking",
+    "cover": "assets/img/blurspot/cover.webp",
+    "body": [
+      { "t": "lead", "text": "Blurspot Films was created by a bunch of creative techies in order to bring their dreams to life." },
+      { "t": "p", "text": "Blurspot Films was created by Nick Pattas and Achilleas Apostolou in 2021 in Heraklion, Crete as a continuation of their first filmmaking projects: Déjà Rêvé (2019) and Pythmenas (2020). Blurspot is now based in Athens after the addition of Vasilis Tsimitras to the team." },
+      { "t": "h", "text": "Other Projects Include" },
+      { "t": "list", "items": [
+        "Project White Cube (@red_frame_studio x @symptom.space x @blurspotfilms)",
+        "PRD - Vision",
+        "Δράμα Κωμικού - Λαθραία",
+        "nXkeed - Καφές στην Κούπα",
+        "acebeats - You can't suffer in Athens",
+        "2.1 - Kimi Raikkonen",
+        "The Egg (2024) VP Short Film"
+      ] }
+    ],
+    "gallery": [
+      "assets/img/blurspot/01.webp", "assets/img/blurspot/02.webp", "assets/img/blurspot/03.webp",
+      "assets/img/blurspot/04.webp", "assets/img/blurspot/05.webp", "assets/img/blurspot/06.webp",
+      "assets/img/blurspot/07.webp"
+    ]
+  },
+  {
+    "id": "publications",
+    "title": "Publications and Projects",
+    "label": "Publications",
+    "subtitle": "A list of publications, side projects, articles and other academic work.",
+    "year": "2020 - Present",
+    "category": "Academia",
+    "wide": true,
+    "body": [
+      { "t": "pubs", "items": [
+        {
+          "title": "Covid-19 - VR Strikes Back: innovative medical VR training",
+          "authors": "Paul Zikas, Manos Kamarianakis, Ioanna Kartsonaki, Nick Lydatakis, Steve Kateros, Mike Kentros, Efstratios Geronikolakis, Giannis Evangelou, Achilles Apostolou, Paolo Alejandro Catilo, George Papagiannakis",
+          "venue": "SIGGRAPH '21: ACM SIGGRAPH 2021 Immersive Pavilion",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3450615.3464546"
+        },
+        {
+          "title": "Virtual Reality Medical Training for COVID-19 Swab Testing and Proper Handling of Personal Protective Equipment: Development and Usability",
+          "authors": "Paul Zikas, Steve Kateros, Nick Lydatakis, Mike Kentros, Efstratios Geronikolakis, Manos Kamarianakis, Giannis Evangelou, Ioanna Kartsonaki, Achilles Apostolou, Tanjia Birrenbach, Aristomenis K. Exadaktylos, Thomas C. Sauter, George Papagiannakis",
+          "venue": "Front. Virtual Real., 04 February 2022, Sec. Virtual Reality in Medicine",
+          "link": "https://doi.org/10.3389/frvir.2021.740197"
+        },
+        {
+          "title": "Rolling Towards Empathy: Developing a VR Simulation for Improving Attitudes Toward Wheelchair Users in Public Spaces",
+          "authors": "Andreas Jin Sum, Achilles Apostolou, Nicolai Bouquin, Rune Ludvigsen, Adrian Mathias Wagner, Peter Mathiesen, Carlos Mauricio Castaño Díaz",
+          "venue": "Universal Design 2024, Oslo"
+        }
+      ] }
+    ]
+  }
+]
