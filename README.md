@@ -1,54 +1,39 @@
-# achilleasapostolou.gr
+# Achilleas Apostolou — Portfolio
 
-A hand-written one-page portfolio. No framework, no build step, no third-party
-requests — just HTML, CSS and a little JavaScript. Hosted on GitHub Pages.
+Personal portfolio website of **Achilleas Apostolou**, a 3D TD & Media Technologist working with real-time CG, VR, digital lighting and virtual production.
 
-## Edit the content
+**Live site:** [achilleasapostolou.gr](https://achilleasapostolou.gr)
 
-| What | File |
-| --- | --- |
-| Name, email, status dot, intro, about, experience, education, activities, quote, contact, social links | `data/site.json` |
-| Projects (the cards and their pop-ups) | `data/projects.json` |
+## About the site
 
-Change a value, save, refresh. That's it.
+A single-page portfolio presenting selected projects (each opening as a pop-up with details and a gallery), background, experience, education and contact information.
 
-**Experience / education** are timelines: each entry is an organisation (`org`, `when`) with one or more `roles` (`title`, optional `note`, optional `when`). Put several roles under one entry to merge them, as with ORamaVR. An entry whose `when` contains "Present" gets the glowing node.
+- Hand-written HTML, CSS and vanilla JavaScript: no framework and no build step
+- Content kept in plain JSON files and rendered in the browser
+- Interactive, cursor-reactive background and project cards (honours the "reduce motion" setting)
+- Responsive layout, with light and dark themes following the system preference
+- Self-hosted fonts and optimized WebP images; no analytics, trackers or third-party requests
+- Hosted on GitHub Pages with a custom domain
 
-**Flags** — you can type flag emoji (🇬🇷 🇩🇰 🇨🇭) anywhere in the JSON. Windows shows those as letters, so the site swaps them for small SVGs from `assets/flags/`. For another country add `assets/flags/<code>.svg` and its code to the `FLAGS` list in `js/app.js`.
+## Structure
 
-**CV button** — it downloads `assets/Apostolou_CV.pdf`. To publish a new CV, replace that file (keep the name) and push; nothing else changes. If you ever want a different file name or an external link, edit `about.cv.url` in `data/site.json`.
-
-**Status dot** — `"status"` in `site.json` is `online` (green), `away` (amber), `busy` (red) or `offline` (grey).
-
-### Add a project
-
-1. Put the original photos in a folder and shrink them:
-   `python tools/optimize-images.py path/to/photos my-project`
-   (writes `assets/img/my-project/*.webp`; needs `pip install pillow`)
-2. Add an entry to `data/projects.json` (copy an existing one). Fields:
-   `id` (used in the URL, `/#/my-project`), `title`, `label`, `subtitle`, `year`,
-   `timeframe`, `tools`, `category`, `cover`, `gallery` (list of images) and
-   `body`, a list of blocks: `lead`, `p`, `h` (small heading), `list` (`items`),
-   `pubs` (publication list). Bare `https://…` links in text become clickable.
-3. Cards appear in the order of the file. `"wide": true` makes a full-width text card
-   (used for Publications); leave out `cover` for a text-only card.
-
-Old Framer URLs (`/works/vp`, …) redirect to the matching pop-up.
+```
+index.html     page skeleton
+css/           styles and self-hosted fonts
+js/app.js      rendering and interactions
+data/          site and project content (JSON)
+assets/        images, flags, favicon and CV
+tools/         small helper scripts (image optimization, perf test)
+```
 
 ## Run locally
 
-The site fetches its JSON, so open it through a web server rather than as a file:
+The page loads its content with `fetch`, so serve the folder instead of opening the file directly:
 
 ```
 npx serve .
 ```
 
-## Layout
+## Rights
 
-- `index.html` — page skeleton
-- `css/style.css` — design (colours are the original Framer tokens; light mode follows the OS)
-- `js/app.js` — rendering from the JSON + the cursor effects (dot field, spotlight, parallax, card tilt, pop-up)
-- `assets/` — images, fonts (self-hosted), favicon
-- `tools/optimize-images.py` — image shrinker
-
-The previous Framer export is preserved in git under the tag `framer-export`.
+The text, photographs and project material on this site belong to Achilleas Apostolou. No open-source license is attached to this repository.
