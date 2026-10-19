@@ -220,9 +220,20 @@
     document.title = `${p.title} — ${site.name}`;
   }
 
+  /* Anonymous, cookie-free event counting via GoatCounter (script tag in index.html).
+     The script loads async and ad blockers may stop it, so retry for a few seconds
+     and then give up silently. */
+  function track(path, title, tries = 20) {
+    const gc = window.goatcounter;
+    if (gc && typeof gc.count === "function") { gc.count({ path, title, event: true }); return; }
+    if (tries > 0) setTimeout(() => track(path, title, tries - 1), 500);
+  }
+  let trackedId = null;
+
   function showProject(id) {
     if (!byId[id]) return;
     renderProject(id);
+    if (trackedId !== id) { trackedId = id; track("project/" + id, "Project: " + byId[id].title); }
     modal.classList.remove("closing");
     if (!modal.open) {
       modal.showModal();
@@ -241,6 +252,7 @@
       wake();
       if (opener && document.contains(opener)) opener.focus({ preventScroll: true });
       opener = null;
+      trackedId = null;
     };
     if (reduceMotion) return finish();
     modal.classList.add("closing");
@@ -521,6 +533,10 @@
     update();
   }
 
+  function initTracking() {
+    $("#cv-btn").addEventListener("click", () => track("cv-download", "CV download"));
+  }
+
   function initCopy() {
     $("#copy-mail").addEventListener("click", async () => {
       try { await navigator.clipboard.writeText(site.email); toast("Email copied"); }
@@ -560,6 +576,7 @@
     flagify(document.body);
     initFloats();
     initCopy();
+    initTracking();
     initMenu();
     initToTop();
     observe();

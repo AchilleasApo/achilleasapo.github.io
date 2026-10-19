@@ -12,7 +12,7 @@ A single-page portfolio presenting selected projects (each opening as a pop-up w
 - Content kept in plain JSON files and rendered in the browser
 - Interactive, cursor-reactive background and project cards (honours the "reduce motion" setting)
 - Responsive layout, with light and dark themes following the system preference
-- Self-hosted fonts and optimized WebP images; no analytics, trackers or third-party requests
+- Self-hosted fonts and optimized WebP images; the only third-party request is [GoatCounter](https://www.goatcounter.com), a privacy-friendly, cookie-free visit counter
 - Hosted on GitHub Pages with a custom domain
 
 ## Structure
